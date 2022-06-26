@@ -7,7 +7,12 @@ function App() {
     <div className="App">
       <div className='contenedor-principal'>
       <h1>Fake path Crusade</h1>
+      
+            
+     
       </div>
+      <div className='flex-container'>
+      <div className='flex1'>
 <Presentacionpjt
       nombre='Raiferick'
       origen='Gautas'
@@ -16,6 +21,8 @@ function App() {
       imagen='raiferick'
       
       /> 
+      </div>
+      <div className='flex2'>
 <Presentacionpjt
       nombre='Raack'
       origen='Varegos '
@@ -24,6 +31,8 @@ function App() {
       imagen='Raack3'
       
       /> 
+      </div>
+      <div className='flex3'>
 <Presentacionpjt
       nombre='Dimmz'
       origen='Paladin'
@@ -32,6 +41,9 @@ function App() {
       imagen='dimmz'
       
       /> 
+      </div>
+
+      <div className='flex4'> 
 
 <Presentacionpjt
       nombre='Kyrie'
@@ -41,7 +53,9 @@ function App() {
       imagen='kyrie3'
       
       />
+      </div>
     
+    </div>
     </div>
   );
 }
