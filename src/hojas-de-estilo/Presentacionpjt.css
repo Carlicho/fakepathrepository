@@ -1,42 +1,62 @@
-.imagen-raiferick {width: 30px;}
+
 
 .contenedor-presentacion { 
-        width: 1170px;
+        width: 75VW;
         height: 368px;
         margin: 10px 10px 50px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items:center;
+        justify-content:center;
         background-color: #130b0b;
         box-shadow: 0 3px 13px 1px #b4060681 ;
 }
 
 .imagen-presentacion {
-        height: 100%;
+        height: 70%;
         width: auto;
+        max-width: 35.5vw;
 }
 
-.contenedor-presentacion {
+.contendor-texto-presentacion {
         text-align: center;
         padding: 40px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: 400;
-        line-height: 1.5rem;
+        line-height: 1.5vw;
         color: rgb(236, 19, 19);
         text-shadow: 2px 2px 12px  #8d0c0c;
 }
 
 .nombre-presentacion {
-        font-size: 1.3rem;
+        font-size: 3.3vw;
+        padding-bottom: 1.5vw;
+        line-height: 3.3vw;
 }
 
 .cargo-presentacion {
-        font-size: 1.3rem;
+        font-size: 2.3vw;
         margin-top: 15px;
         padding-bottom: 30px;
 }
 
 .texto-presentacion {
-         font-size: 1.1;
+         font-size: 1.1vw;
          text-align: justify;
+}
+
+.flex-container {
+        display: flex;
+        flex-direction:column;
+}
+
+.flex-img {
+        display: flex;
+        flex-direction: column;
+
+}
+
+.flex-text {
+        display: flex;
+        flex-direction: column;
+
 }
